@@ -1,0 +1,34 @@
+body > header {
+  top: 0;
+  left: 0;
+  position: fixed;
+  display: flex;
+  width: 100vw;
+  flex: 1;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(30deg, #dacc0b 10%, #d80705 50%, #0f029c 100%);
+  justify-content: center;
+  align-items: center;
+}
+body > header > a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+body > header > a img {
+  display: flex;
+  object-fit: contain;
+  padding: 0.25rem 1rem;
+}
+body > header > nav {
+  padding: 0.25rem 2rem;
+  gap: 1rem;
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  align-items: center;
+}
+body > header > nav a {
+  text-decoration: none;
+  color: white;
+}

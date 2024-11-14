@@ -1,0 +1,57 @@
+body > main {
+  padding: 2rem 2rem;
+  display: flex;
+  gap: 1rem;
+  flex: 1;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+body > main > header {
+  width: 30%;
+  flex-direction: column;
+  justify-content: center;
+}
+#bienvenida {
+  font-weight: 800;
+}
+body > main > header > section {
+  padding: 2rem 0rem;
+  color: rgb(215, 215, 215);
+}
+body > main > header > nav {
+  display: flex;
+  gap: 1rem;
+}
+body > main > header > nav a {
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+}
+#comenzar {
+  background-color: #d80705;
+  color: rgb(255, 255, 255);
+  border-radius: 3rem;
+}
+#sobre-mi {
+  background-color: rgb(215, 215, 215);
+  stroke-width: 10%;
+  color: rgb(2, 0, 36);
+  border-radius: 3rem;
+}
+body > main > article {
+  padding: 4rem 2rem 1rem 1rem;
+  display: flex;
+  justify-content: flex-end;
+}
+body > main > article > img {
+  width: 400px;
+  height: 400px;
+  border-radius: 4rem;
+  justify-content: flex-end;
+}
+body > main > blockquote > cite{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding: 1rem 2rem;
+}
