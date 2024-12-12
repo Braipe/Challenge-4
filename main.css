@@ -49,7 +49,7 @@ body > main > article > img {
   border-radius: 4rem;
   justify-content: flex-end;
 }
-body > main > blockquote > cite{
+body > main > blockquote > cite {
   display: flex;
   text-align: center;
   justify-content: center;
