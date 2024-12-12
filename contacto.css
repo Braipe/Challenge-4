@@ -1,0 +1,80 @@
+#sect-contacto {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+}
+#contacto {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+#contacto h2 {
+  font-weight: 800;
+  font-size: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+#contacto ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background: #160063;
+  padding: 2rem;
+  border-radius: 2rem;
+}
+#contacto ul li {
+  list-style: none;
+  color: rgb(203, 203, 203);
+}
+#contacto ul li h3 {
+  font-weight: 800;
+  font-size: 1.5rem;
+  color: transparent;
+  background-image: linear-gradient(to right, #dacc0b, #d80705, #0f029c);
+  background-clip: text;
+  text-align: center;
+}
+#contacto nav {
+  display: flex;
+  gap: 2rem;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+.fb {
+  background-color: #0f029c;
+  padding: 0.5rem;
+  border-radius: 0.5rem 1rem;
+}
+.ig {
+  background-color: #ffffff;
+  padding: 0.5rem;
+  border-radius: 0.5rem 1rem;
+}
+.git {
+  background-color: #999999;
+  padding: 0.5rem;
+  border-radius: 0.5rem 1rem;
+}
+.x {
+  background-color: #000000;
+  padding: 0.5rem;
+  border-radius: 0.5rem 1rem;
+}
+#img-contacto {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+#img-contacto img {
+  width: 400px;
+  height: 500px;
+  border-radius: 4rem;
+  border-style: outset;
+  border-color: #d8c605;
+}

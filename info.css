@@ -1,0 +1,106 @@
+#information {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+#information header {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+#information header h2 {
+  font-weight: 800;
+  font-size: 2rem;
+}
+#information header p {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: rgb(215, 215, 215)
+}
+#cards {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  justify-content: space-between;
+  width: 90%;
+}
+#cards ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: rgb(16, 0, 98);
+  flex-wrap: wrap;
+  border-style: outset;
+  border-color: #bebdbd;
+}
+#cards ul li {
+  list-style: none;
+  gap: .5rem;
+}
+#cards ul li img {
+  height: 150px;
+  border-radius: 2rem;
+
+}
+#cards ul li h3{
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+#cards ul li p{
+  color: linear-gradient(180deg, #929292 10%, #383838 100%);
+  font-weight: 400;
+  font-size: 1rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+}
+.yell{
+  background: linear-gradient(90deg, #dacc0b 10%, #d85605 100%);
+  padding: .5rem 1rem;
+  border-radius: 2rem;
+  color: black;
+  border-style: outset;
+  border-color: rgb(52, 42, 101);
+}
+.red{
+  background: linear-gradient(90deg, #d85605 10%, #d80505 70%, rgb(47, 2, 137)100%);
+  padding: .5rem 1rem;
+  border-radius: 2rem;
+  color: rgb(184, 184, 184);
+  border-style: outset;
+  border-color: rgb(52, 42, 101);
+}
+.blue{
+  background: linear-gradient(90deg, rgb(47, 2, 137)10%, rgb(1, 1, 168) 100%);
+  padding: .5rem 1rem;
+  border-radius: 2rem;
+  color: rgb(234, 234, 234);
+  border-style: outset;
+  border-color: rgb(52, 42, 101);
+}
+
+@media (max-width: 768px){
+  #cards{
+    display: flex;
+    flex-direction: column;
+  }
+}
